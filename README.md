@@ -8,8 +8,7 @@ This is a GitOps repository of a simple Kargo example for getting started.
 * Three Stage (dev, staging, prod) deploy pipeline
 * Image tag promotion
 * PromotionTask with a conditional pull request
-* Direct Git commits to dev, staging
-* Pull request for promotion to prod
+* Direct Git commits to dev, staging, prod
 
 This example does not require an Argo CD instance and so would work with any
 GitOps operator (Argo CD, Flux) that detects and deploys manifest changes from
